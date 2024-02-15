@@ -1,0 +1,15 @@
+app:
+  name: github.com/afdikomayte/rsud-back-office
+  port: ":8080"
+
+db:
+  user: root
+  password: Password#db1
+  host: localhost
+  port: 3306
+  name: db_rsud_back_office
+  connection_pool:
+    max_idle_connection: 10
+    max_open_connection: 30
+    max_lifetime_connection: 60 #sec
+    max_idletime_connection: 60 #sec
